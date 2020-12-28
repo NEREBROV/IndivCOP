@@ -10,17 +10,27 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 abstract public class ModelStorage {
-    // 
+    // Данный класс является интерфейсом взаимодействия с объектами моделей.
+    // Он реализует методы вставки, изменения, получения и удаления объектов базе.
+
+    // Поле, которое хранит ссылку на объект хранилища базы данных
     DBStore dbStore;
+
+    // Поле для хранения объектов модели,
+    // при переопределении метода parceModel тут хранятся объекты только одного типа
     List<Model> objects;
 
     public ModelStorage(DBStore dbStore) {
         this.dbStore = dbStore;
+
+        // Фильтрация объектов строк, хранящихся в объекте хранилища по ключевому признаку
         this.objects = dbStore.getObjectsStrings().filter(
                 s -> s.contains(getDbFilteringKey())
         ).map(
+                // К каждой строке в наборе применяем функцию парсинга модели
                 this::parseModel
         ).collect(
+                // Собираем все в список
                 Collectors.toList()
         );
     }
@@ -34,6 +44,7 @@ abstract public class ModelStorage {
         if (result.isPresent()) {
             return result.get();
         }
+        // Если объект отсутствует, выбрасываем исключение
         throw new IllegalArgumentException("Object with passed ID doesn't exists");
     }
 
