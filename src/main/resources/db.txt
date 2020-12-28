@@ -1,0 +1,65 @@
+team	1	St. John Fisher College
+team	2	University College of Trollhättan/Uddevalla
+team	3	"Shoumen University ""Konstantin Preslavski"""
+team	4	Saito College
+team	5	Kano State University of Technology Wudil
+team	6	Catholic Theological Union
+team	7	Maranatha Baptist Bible College
+team	8	Amber University
+team	9	Universidad Itaca
+team	10	Technical University of Czestochowa
+player	1	Araldo	Lackeye	7
+player	2	Armstrong	Coare	1
+player	3	Peter	Billing	9
+player	4	Hanni	Fairrie	8
+player	5	Ilario	Allix	1
+player	6	Valencia	Croan	2
+player	7	Rica	Decort	5
+player	8	Sherline	Jancic	2
+player	9	Timotheus	Kehir	4
+player	10	Peta	Niessen	6
+player	11	Virge	Dwane	9
+player	12	Guido	Goulstone	8
+player	13	Athena	Lindup	8
+player	14	Cathyleen	Sircomb	3
+player	15	Keslie	Gomby	3
+player	16	Pia	Bearfoot	9
+player	17	Consolata	Patrone	3
+player	18	Arman	Casale	7
+player	19	Humfrey	Sarson	5
+player	20	Hester	Aldhouse	5
+player	21	Nichole	Adam	5
+player	22	Mollee	Boultwood	7
+player	23	Zonda	Winwright	4
+player	24	Marji	Shevlan	5
+player	25	Sumner	Elsay	4
+player	26	Dulcy	Antowski	10
+player	27	Lilia	Sneden	3
+player	28	Noby	Paget	4
+player	29	Carlota	Petchell	5
+player	30	Leda	Mathiassen	7
+player	31	Bail	Rollinshaw	10
+player	32	Hobie	McLaggan	10
+player	33	Bax	Abelov	2
+player	34	Orville	Care	6
+player	35	Elise	Bosnell	5
+player	36	Walden	Lamp	10
+player	37	Allin	Drains	5
+player	38	Myrtice	Bibb	2
+player	39	Emlyn	Fronks	4
+player	40	Joye	Abbatini	5
+player	41	Vida	Buddell	1
+player	42	Odo	Sans	6
+player	43	Zorina	Voisey	2
+player	44	Hollis	Hastler	9
+player	45	Charline	Carslaw	10
+player	46	Queenie	Calyton	2
+player	47	Everett	Le Leu	4
+player	48	Lanette	Tinkham	5
+player	49	Justus	Taynton	2
+player	50	Gram	Ong	2
+match	1	12.05.2017	Teklist	6:5	1	5	[2, 5, 7, 19, 20, 21, 24, 29, 35, 37, 40, 41, 48]
+match	2	18.09.2017	Pixoboo	8:0	7	7	[1, 18, 22, 30]
+match	3	23.07.2020	Riffpedia	0:0	6	3	[10, 14, 15, 17, 27, 34, 42]
+match	4	03.08.2019	Fivechat	5:6	1	6	[2, 5, 10, 34, 41, 42]
+match	5	04.08.2020	Divanoodle	6:6	3	10	[14, 15, 17, 26, 27, 31, 32, 36, 45]

@@ -1,0 +1,7 @@
+team	1	St. John Fisher College
+team	2	University College of Trollhättan/Uddevalla
+player	1	Araldo	Lackeye	1
+player	2	Armstrong	Coare	1
+player	3	Peter	Billing	2
+player	4	Hanni	Fairrie	2
+match	1	12.05.2017	Teklist	6:5	1	2	1 2 3 4
